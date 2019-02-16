@@ -1,0 +1,7 @@
+{
+  "name": "railsgirls",
+  "private": true,
+  "dependencies": {
+    "sqlite3": "^4.0.6"
+  }
+}
