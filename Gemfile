@@ -6,7 +6,7 @@ ruby '2.3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.6'
+# gem 'sqlite3', '~> 1.3.6'
 # Use Puma as the app server
 gem 'carrierwave'
 gem 'puma', '~> 3.11'
@@ -49,10 +49,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'sqlite3', '~> 1.3.6'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
+  gem 'pg'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
